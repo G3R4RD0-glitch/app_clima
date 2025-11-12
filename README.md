@@ -1,16 +1,18 @@
-# app_clima
+# Clima Lab 1 – API REST segura (OpenWeatherMap)
 
-A new Flutter project.
+## Requisitos
+- Flutter 3.x
+- Android Studio (o VS Code) con Flutter SDK
+- Emulador Android o dispositivo físico
+- API key de OpenWeatherMap
 
-## Getting Started
+## Paquetes usados
+- `http`: peticiones HTTP a la API.
+- `flutter_dotenv`: leer la API key desde un archivo `.env` (sin hardcodearla).
 
-This project is a starting point for a Flutter application.
+## Configuración rápida
 
-A few resources to get you started if this is your first Flutter project:
+1. Instalar dependencias:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   ```bash
+   flutter pub get
